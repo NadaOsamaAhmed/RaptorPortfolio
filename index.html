@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Raptor Solar Energy </title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1 class="sitename">Raptor</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <!-- <li><a href="#pricing">Pricing</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Welcome to Raptor</h1>
+            <p>Empowering a brighter, greener future with innovative solar energy solutions</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">About us</a>
+              
+            </div>
+            </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/logo.png" class="img-fluid animated" alt="logo of the company">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+     <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client1.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client2.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client3.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client5.webp" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client6.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client7.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client8.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client9.jpeg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client10.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client11.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client12.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client13.jpeg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client14.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client15.jpg" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section> 
+    <!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              Raptor Solar is a forward-thinking company revolutionizing the solar energy industry. With a focus on sustainability and innovation, Raptor Solar is dedicated to providing cutting-edge solar solutions that empower businesses and households to embrace clean, renewable energy.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Solar power station installation service for customers, companies, developers, Agricultural companies and factories.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Installation service for all types of stations and dealing with any new components or special designs according to the projects needs.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Supply and installation of modern irrigation systems.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Submitting a final report on the project will provide you with information that will help you in operation and maintenance throughout the life of the project.</span></li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>At Raptor Solar, we envision a world where clean energy is not just an option but a standard. By harnessing the power of the sun, we aim to reduce carbon footprints and pave the way toward a greener, more sustainable future. </p>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a> 
+          </div> -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>Know more about</span><strong> Raptor Solar Energy</strong></h3>
+              <!-- <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p> -->
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span> Our Vision?</h3>
+                <div class="faq-content">
+                  <p>Our vision is to become a market leader in Egypt in solar energy and agritech EPC and finance facilitating.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span>Our Values?</h3>
+                <div class="faq-content">
+                  <p>Our value is to provide our customers with efficient, cost-effective
+                    and sustainable energy and water solutions for their farms,
+                    factories and homes.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span>Our Mission?</h3>
+                <div class="faq-content">
+                  <p>Our mission is to provide value for money to our customers while
+                    scaling sustainably and capturing a significant market share, aiming
+                    to become the leading EPC+ finance company in the market.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <!-- <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100"> -->
+            <!-- <video src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fweb.facebook.com%2FRaptorSolar%2Fvideos%2F2637047249834564%2F&show_text=false&width=267&t=0" class="object-fit-contain" autoplay></video> -->
+            <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fweb.facebook.com%2FRaptorSolar%2Fvideos%2F2637047249834564%2F&show_text=false&width=267&t=0"  width="300" height="476" style="border:none;overflow:hidden;border-radius: 10px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+      <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Raptor always strives to provide added value to its
+          customers in the field of solar-powered irrigation stations
+          projects,</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon"></i></div> -->
+              <h4><a href="#" onclick="event.preventDefault();" class="stretched-link">Solar Pump</a></h4>
+              <p>Renewable energy source to pump out the water for irrigation. The most effective and the lower cost to pump water ever.</p>
+              </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div> -->
+              <h4><a href="#" onclick="event.preventDefault();" class="stretched-link">Solar On-Grid System</a></h4>
+              <p>Decrease your operation cost through the sun.<br>Generate up to 50% of your energy, without a battery.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-calendar4-week icon"></i></div> -->
+              <h4><a href="#" onclick="event.preventDefault();" class="stretched-link">Solar Off-Grid systems and lights</a></h4>
+              <p>We provide light and 220v electricity source works 24hrs a day. Specially designed just for you.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-broadcast icon"></i></div> -->
+              <h4><a href="#" onclick="event.preventDefault();" class="stretched-link">Modern Irrigation</a></h4>
+              <p>Our modern irrigation systems insures the highest possible value for each water drop and fertilizers ensuring sustainable farming.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-broadcast icon"></i></div> -->
+              <h4><a href="#" onclick="event.preventDefault();" class="stretched-link">Maintenance Service</a></h4>
+              <p>We provide maintenance services for solar systems with not more than 48hrs delay all over Egypt.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-broadcast icon"></i></div> -->
+              <h4><a href="#" onclick="event.preventDefault();" class="stretched-link">Finance facilitating</a></h4>
+              <p>We developed our partnerships with key finance institution to help our clients finance their solar energy and modern irrigation systems.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Join the solar revolution</h3><br>
+            <p>At Raptor Solar, we turn sunlight into savings. Let us help you harness the power of the sun today!</p>
+            <p>Save energy, save money, and save the planet. Raptor Solar is your trusted partner in renewable energy.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">Just Contact us</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Some samples of our work</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Before</li>
+            <li data-filter=".filter-product">After</li>
+            <!-- <li data-filter=".filter-branding">Web</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/beforesample5.jpg" class="img-fluid" alt="Some samples of our work">
+              <div class="portfolio-info">
+                <h4>Sample 1</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/portfolio/beforesample5.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/sample5.jpg" class="img-fluid" alt="Some samples of our work">
+              <div class="portfolio-info">
+                <h4>Sample2</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/portfolio/sample5.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/sample1.jpg" class="img-fluid" alt="Some samples of our work">
+              <div class="portfolio-info">
+                <h4>Sample 3</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/portfolio/sample1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/sample3.jpg" class="img-fluid" alt="Some samples of our work">
+              <div class="portfolio-info">
+                <h4>Sample 4</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/portfolio/sample3.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/sample2.jpg" class="img-fluid" alt="Some Samples of our work">
+              <div class="portfolio-info">
+                <h4>Sample 5</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/portfolio/sample2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> --
+              </div>
+            </div>End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/sample4.jpg" class="img-fluid" alt="Some samples of our work">
+              <div class="portfolio-info">
+                <h4>Sample 6</h4>
+                <p>Lorem ipsum, dolor sit</p>
+                <a href="assets/img/portfolio/sample4.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            
+            
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Meet the passionate and skilled team behind Raptor Solar, committed to delivering innovative solar solutions and a sustainable future</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member row align-items-center">
+              <!-- Team Image -->
+              <div class="col-md-6">
+                <img src="assets/img/team/team.jpg" class="img-fluid w-100" alt="Team">
+              </div>
+              <!-- Team Info -->
+              <div class="col-md-6">
+                <div class="member-info">
+                  <h4>Team Members</h4>
+                  <p>
+                    At Raptor, our diverse team is our greatest asset, comprised of dedicated professionals across various departments, including an expert team (engineers and technicians), Sales, Accounting, Human Resources, and Warehouse and Procurement.<br><br>
+                    Our commitment to excellence in the installation and maintenance of solar energy systems is driven by our outstanding team.<br><br>
+                    Our professionals are at the heart of everything we do, combining their technical expertise with unparalleled dedication to powering homes and businesses sustainably.<br><br>
+                    Projects Manager leads our on-site and technical teams with a blend of precision engineering and innovative thinking.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+         
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <!-- <p></p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Up to 15 KWatt</h3>
+              <h4>13000<sub>L.E.</sub></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Solar power station installation service for customers,
+                  companies, developers, Agricultural companies and
+                  factories.</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Up to 40 KWatt</h3>
+              <h4>12000<sub>L.E.</sub></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Solar power station installation service for customers,
+                  companies, developers, Agricultural companies and
+                  factories.</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Over 40 KWatt</h3>
+              <h4>11000<sub>L.E.</sub></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Solar power station installation service for customers,
+                  companies, developers, Agricultural companies and
+                  factories.</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Customers</h2>
+        <!-- <p></p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
+                <h3>We know the market</h3>
+               
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>We have served more than 250 clients with our solar
+                    energy products.
+                    We installed our systems in 11 governments. Most of
+                    them in upper Egypt and New Valley.
+                    Our installed system ranges from 7.5 hp to 175 hp solar
+                    pumps.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
+                <h3>End User Finance</h3>
+                <!-- <h4></h4> -->
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>We have financed almost 80% of our sales through
+                    different financing schemes. Mostly was through our
+                    company.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Feel free to contact us</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+             
+              
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+201000598602</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@raptor.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-facebook flex-shrink-0"></i>
+                  <div>
+                    <h3>Follow Us</h3>
+                    <a href="https://web.facebook.com/RaptorSolar" target="_blank" rel="noopener noreferrer">
+                    <p>Our website on Facebook</p>
+                    </a>
+                  </div>
+                
+
+              <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAr0egp4rGS7vJsNN458vhF7zAwdQL4a18&q=Raptor+Solar&zoom=15" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Raptor</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p class="mt-3"><strong>Phone:</strong> <span>+2 0100 059 8602</span></p>
+            <p><strong>Email:</strong> <span>info@raptor.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+            <!-- <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li> -->
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Solar Pump</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Modern Irrigation</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Maintenance Service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Solar On-Grid System</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Take your first step to save your money and energy</p>
+          <div class="social-links d-flex">
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+            <a href="https://web.facebook.com/RaptorSolar" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/raptor-esc/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        !-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] --
+      </div>
+    </div> -->
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
